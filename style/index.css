@@ -29,6 +29,12 @@ header .logo {
     text-decoration: none;
 }
 
+.menu .indice a:hover {
+    color: #ff9e8f;
+    text-decoration: underline;
+    transition: color 500ms;
+}
+
 /* Apresentação */
 .apresentacao {
     width: 940px;
