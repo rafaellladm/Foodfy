@@ -4,3 +4,60 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Cabeçalho da pagina */
+header {
+    display: flex;
+    margin-top: 36.1px;
+    margin-left: 231px;
+}
+
+header .logo {
+    width: 90.6px;
+    height: 26.9px;
+    margin-right: 122.4px;
+    cursor: pointer;
+}
+
+.conteiner-menu .menu {
+    display: flex;
+}
+
+.menu .indice {
+    margin-top: 1.9px;
+    margin-right: 30px;
+}
+
+.menu .indice a {
+    color: #111111;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.menu .indice a:hover {
+    color: #ff9e8f;
+    text-decoration: underline;
+    transition: color 500ms;
+}
+
+/* == footer == */
+
+footer {
+    width: 100%;
+    height: 62px;
+    background: #eeeeee;
+    text-align: center;
+}
+
+.footer-text {
+    padding-top: 23px;
+}
+
+.footer-text p {
+    color: #999999;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
