@@ -1,0 +1,87 @@
+/* == menu == */
+.indice.receitas a {
+    font-weight: 700;
+}
+
+/* == Container Cards == */
+
+.cards {
+    margin: 50px 16.4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+/* Container Card */
+
+.img-containers img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.informacao h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.informacao p {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* == Modal == */
+
+.modal {
+    background: #00000060;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;    
+}
+
+.card-container {
+    background: #ffffff;
+    position: relative;
+    width: 660px;
+    height: 413px;
+    margin: 100px 26.4%;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card-modal {
+    padding: 30px;
+}
+
+.img-modal img {
+    width: 600px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.informacao-modal h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.informacao-modal p {
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 60px;
+}
+
+.fechar a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 16px;
+    line-height: 19px;
+}
