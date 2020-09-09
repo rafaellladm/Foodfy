@@ -14,10 +14,17 @@
 }
 
 /* Container Card */
+.card:hover {
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 3px #ff9e8f;
+}
 
 .img-containers img{
     width: 300px;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 .informacao h3 {
@@ -36,7 +43,7 @@
 
 /* == Modal == */
 
-.modal {
+.modal.active {
     background: #00000060;
     position: fixed;
     top: 0;
@@ -79,9 +86,10 @@
     margin-bottom: 60px;
 }
 
-.fechar a {
+.close-modal a {
     text-decoration: none;
     color: #999999;
     font-size: 16px;
     line-height: 19px;
+    cursor: pointer;
 }
