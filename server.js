@@ -27,10 +27,28 @@ server.get("/receitas", (req, res) => {
 })
 
 server.get("/sobre", (req, res) => {
-
-    return res.render("sobre",)
+    return res.render("sobre")
 })
 
+
+
+server.get("/receitas/:index", function (req, res) {
+    const recipeIndex = req.params.index
+
+    const recipe = recipes.find(function(recipe) {
+        return recipe.id == recipeIndex
+    })
+
+    if (!recipe) {
+        return res.render("not-found")
+    }
+
+    return res.render("receita", { recipe })
+})
+
+server.use(function(req, res) {
+    res.status(404).render("not-found");
+})
 
 server.listen(5000, () => {
     console.log('server is running')
