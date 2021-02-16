@@ -1,0 +1,64 @@
+/* body */
+.body {
+    margin: 0;
+}
+
+/* Parte Superior */
+.box_up {
+    position: relative;
+    width: 100%;
+}
+
+.img-conteiner {
+    margin: 4.4% 16.4% 3.9%;
+}
+.img-conteiner img {
+    height: 280px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.author {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: #777777;
+}
+
+/* Parte Inferior */
+
+.box_down {
+    margin: 3.9% 16.4%;
+}
+
+.title_description {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    white-space: nowrap;
+    align-items: baseline;
+    margin-top: 39px;
+    margin-bottom: 20px;
+}
+
+.title_description h1 {
+    padding-right: 8px;
+    font-size: 24px;
+}
+
+.title_description a {
+    font-size: 12px;
+    color: #999999;
+    font-weight: bold;
+}
+
+.box_down a {
+    text-decoration: none;
+}
+
+/* Listas */
