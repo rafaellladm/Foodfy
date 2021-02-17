@@ -22,7 +22,9 @@
         <div class="box_ingredients">
             <div class="title_description">
                 <h1>Ingredientes</h1>
-                <a href="" cless="hide_show">ESCONDER</a>
+                <div class="hide_show"  id="ingredients">
+                    <p cless="hide">ESCONDER</p>
+                </div>
             </div>
             <div class="list_ingredients">
                 {% for ingredients in recipe.ingredients %}
@@ -33,7 +35,9 @@
         <div class="box_preparation">
             <div class="title_description">
                 <h1>Modo de preparo</h1>
-                <a href="" cless="hide_show">ESCONDER</a>
+                <div class="hide_show"  id="preparation">
+                    <p cless="hide">ESCONDER</p>
+                </div>
             </div>
             <div class="list_preparation">
                 {% for preparation in recipe.preparation %}
@@ -44,12 +48,16 @@
         <div class="box_information">
             <div class="title_description">
                 <h1>Informações adicionais</h1>
-                <a href="" cless="hide_show">ESCONDER</a>
+                <div class="hide_show"  id="information">
+                    <p cless="hide">ESCONDER</p>
+                </div>
             </div>
-            <div class="description_information">
+            <div class="list_information">
                 <p>{{ recipe.information }}</p>
             </div>
         </div>
     </div>
 </div>
+
+<script src="/script.js"></script>
 {% endblock %}
