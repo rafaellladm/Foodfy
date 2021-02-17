@@ -51,14 +51,25 @@
     font-size: 24px;
 }
 
-.title_description a {
+.hide_show {
     font-size: 12px;
     color: #999999;
     font-weight: bold;
 }
 
-.box_down a {
-    text-decoration: none;
+.title_description .hide_show:hover {
+    cursor: pointer;
 }
 
 /* Listas */
+.list_ingredients {
+    display: block;
+}
+
+.list_preparation {
+    display: block;
+}
+
+.list_information {
+    display: block;
+}
