@@ -1,0 +1,17 @@
+.box_error {
+    display: grid;
+    margin: 10% 20%;
+    border-radius: 15px;
+    padding: 10px;
+    background: #fbdfdb;
+}
+
+.error_message {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.error_message h1 {
+    text-align: center;
+}
